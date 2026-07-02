@@ -16,6 +16,11 @@ C++ CLI , RAG Search + SQLite DB
 * gcc version 14.2.0 
 
 ***
+### Agent Skills
+
+https://github.com/kuc-arc-f/cpp_13ex/tree/main/pi_rag_1
+
+***
 ## Image
 
 * RAG APP
