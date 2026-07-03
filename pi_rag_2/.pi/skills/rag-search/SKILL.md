@@ -1,5 +1,5 @@
 ---
-name: rag_search
+name: rag-search
 description: 検索クエリーから、RAG 検索する
 ---
 
@@ -17,5 +17,5 @@ description: 検索クエリーから、RAG 検索する
 ### STEP 2: スクリプトを実行する
 
 ```
-./scripts/rag_search.sh {query}
+./scripts/rag-search.sh {query}
 ```
