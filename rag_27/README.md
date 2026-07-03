@@ -79,3 +79,5 @@ export GEMINI_API_KEY=your-key
 ***
 ### Blog
 
+https://zenn.dev/knaka0209/scraps/64786c3a917490
+

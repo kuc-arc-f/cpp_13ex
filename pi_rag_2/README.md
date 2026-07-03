@@ -51,3 +51,5 @@ rag_search hello
 ***
 ### Blog
 
+https://zenn.dev/knaka0209/scraps/64786c3a917490
+
