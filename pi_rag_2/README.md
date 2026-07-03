@@ -17,7 +17,7 @@ pi-coding-agent , Skills example
 ***
 ### vector data add
 
-https://github.com/kuc-arc-f/cpp_13pri/tree/main/rag_27
+https://github.com/kuc-arc-f/cpp_13ex/tree/main/rag_27
 
 ***
 ## Image
