@@ -16,6 +16,11 @@ C++ CLI , RAG Search + Qdrant
 * gcc version 14.2.0 
 * Linux
 ***
+### Agent Skills
+
+https://github.com/kuc-arc-f/cpp_13ex/tree/main/pi_rag_2
+
+***
 ## Image
 
 * RAG APP
