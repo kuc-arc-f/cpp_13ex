@@ -174,7 +174,7 @@ public:
                 }        
             }
             //std::cout << "out_str=" << out_str << std::endl;
-            std::cout << out_str << std::endl;
+            //std::cout << out_str << std::endl;
             return out_str;
         } catch (const exception &e) {
             cerr << e.what() << endl;
