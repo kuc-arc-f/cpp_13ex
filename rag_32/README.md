@@ -86,6 +86,9 @@ make all
 npm i 
 npm run start
 ```
+
 ***
 ### Blog
+
+https://zenn.dev/knaka0209/scraps/f4e50e0fcae420
 
