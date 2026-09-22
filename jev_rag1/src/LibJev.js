@@ -20,21 +20,21 @@ export const getJevResult = async function(target , in_arr){
     let max_value = 0
     arr1.forEach((element) => {
       //console.log(element)
-      //console.log(element.key)
-      //console.log(element.value)
-      if(!max_value){
+      console.log(element.key)
+      console.log(element.value)
+      if(max_value === 0){
         max_key = element.key
         max_value = element.value;
       }
-      if(!element.value && (max_value > element.value)){
+      if(element.value && (max_value < element.value)){
         max_key = element.key
         max_value = element.value;
       }
     });    
     console.log("max_key=", max_key)
     console.log("max_value=", max_value)
-    //console.log("result=" , dim1[Number(max_key)])
     const res1 = dim1[Number(max_key)];
+    console.log("result=" , res1);
     return res1;
  }catch(e){console.log(e)}
 }

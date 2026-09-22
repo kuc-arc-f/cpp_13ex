@@ -272,9 +272,13 @@ function App() {
     //console.log(j1)
     //console.log("len=", j1.length)
     let r2= "";
-    if(j1.length <= 1){ 
+    if(j1.length === 0){
       r2 = llm_search(target, "")
-    }else{
+    } 
+    if(j1.length === 1){ 
+      r2 = llm_search(target, j1[0])
+    }
+    if(j1.length >= 2){ 
       const r1 = await getJevResult(target, j1);
       r2 = llm_search(target, r1)
     }
